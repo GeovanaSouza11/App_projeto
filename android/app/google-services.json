@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719810927403",
+    "project_id": "ribeirao-resolve-fatec",
+    "storage_bucket": "ribeirao-resolve-fatec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719810927403:android:3422c52401b95ba1d4436e",
+        "android_client_info": {
+          "package_name": "com.example.appprojeto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9A0Aeo8q5cOR94slJhVySapK-o5B4Lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ribeirao-resolve-fatec",
+          "appId": "1:719810927403:android:3422c52401b95ba1d4436e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ribeirao-resolve-fatec",
+          "configurations": {
+            "android": "1:719810927403:android:3422c52401b95ba1d4436e",
+            "ios": "1:719810927403:ios:9d0e0250d9f25b6fd4436e",
+            "macos": "1:719810927403:ios:9d0e0250d9f25b6fd4436e",
+            "web": "1:719810927403:web:bd21e68b323e6a12d4436e",
+            "windows": "1:719810927403:web:341967e290209f58d4436e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
